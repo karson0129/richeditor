@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:background="@android:color/black"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/undo"
+                    android:id="@+id/action_undo"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/redo"
+                    android:id="@+id/action_redo"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/bold"
+                    android:id="@+id/action_bold"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/italic"
+                    android:id="@+id/action_italic"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/subscript"
+                    android:id="@+id/action_subscript"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/superscript"
+                    android:id="@+id/action_superscript"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/strikethrough"
+                    android:id="@+id/action_strikethrough"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/underline"
+                    android:id="@+id/action_underline"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h1"
+                    android:id="@+id/action_heading1"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h2"
+                    android:id="@+id/action_heading2"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h3"
+                    android:id="@+id/action_heading3"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h4"
+                    android:id="@+id/action_heading4"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h5"
+                    android:id="@+id/action_heading5"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/h6"
+                    android:id="@+id/action_heading6"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/txt_color"
+                    android:id="@+id/action_txt_color"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/bg_color"
+                    android:id="@+id/action_bg_color"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/indent"
+                    android:id="@+id/action_indent"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/outdent"
+                    android:id="@+id/action_outdent"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/justify_left"
+                    android:id="@+id/action_align_left"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/justify_center"
+                    android:id="@+id/action_align_center"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/justify_right"
+                    android:id="@+id/action_align_right"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/bullets"
+                    android:id="@+id/action_insert_bullets"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/numbers"
+                    android:id="@+id/action_insert_numbers"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/blockquote"
+                    android:id="@+id/action_blockquote"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/insert_image"
+                    android:id="@+id/action_insert_image"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@drawable/insert_link"
+                    android:id="@+id/action_insert_link"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@android:drawable/checkbox_on_background"
+                    android:id="@+id/action_insert_checkbox"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@android:drawable/presence_video_away"
+                    android:id="@+id/action_insert_video"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:src="@android:drawable/presence_audio_away"
+                    android:id="@+id/action_insert_audio"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <com.github.richeditor.RichEditor
+            android:layout_width="match_parent"
+            android:id="@+id/editor"
+            android:layout_height="wrap_content">
+
+    </com.github.richeditor.RichEditor>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="HTML Preview"
+            android:textSize="12dp"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
