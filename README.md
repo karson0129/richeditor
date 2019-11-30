@@ -22,7 +22,7 @@ allprojects {
  
   dependencies {
   
-	        implementation 'com.github.karson0129:richeditor:Tag'
+	      implementation 'com.github.karson0129:richeditor:v1.0.0'
 		
 	}
 	
